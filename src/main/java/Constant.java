@@ -5,7 +5,7 @@ public class Constant {
     final static String SECURITY_PASSWORD = "sk21shvV";
     final static String AES_KEY = "kYp2s5v8y/B?E(H+MbQeThWmZq4t6w9z";
     final static String HEX_KEY = "45519377ae03a529";
-    final static String PATH_FILE = "D:\\Vlad\\Java\\";
+    final static String PATH_FILE = "/app/date";
 
     static int STAGE = -2;
     static boolean INQUIRY_GET = false;
