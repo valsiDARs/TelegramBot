@@ -67,7 +67,8 @@ public class CommandHandler {
         String[] nameFileSplit;
         File file = new File(Constant.PATH_FILE);
         String[] arrayFile = file.list();
-        List<String> listFile = Arrays.asList(arrayFile);
+       assert arrayFile != null;
+       List<String> listFile = Arrays.asList(arrayFile);
         for (Object s: listFile.toArray()){
             nameFileSplit = s.toString().split(".txt");
             message = message + nameFileSplit[0] + "\n";
