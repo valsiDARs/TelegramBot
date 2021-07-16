@@ -76,15 +76,19 @@ public class CommandHandler {
         }
         new Bot().sendMsg("Select site: " + "\n" + " \n" + numbering + ".  " + message);
         Constant.INQUIRY_GET = false;
+        listFile.clear();
    }
    private void writeFile(String login, String password, String nameFile){
         String template = new Encryption().cipher(login) + " " + new Encryption().cipher(password);
         try(FileOutputStream fileOutputStream = new FileOutputStream(Constant.PATH_FILE + nameFile + ".txt")){
             byte [] buffer = template.getBytes();
             fileOutputStream.write(buffer);
+            new Bot().sendMsg("Create");
         }catch (IOException e){
             System.out.println(e.getMessage());
+            new Bot().sendMsg("shit happens");
         }
+
 
    }
    private void readFile(String nameFile){
