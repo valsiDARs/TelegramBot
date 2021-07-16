@@ -55,7 +55,8 @@ public class CommandHandler {
             File file = new File(Constant.PATH_FILE + nameFile + ".txt");
             try {
                 file.createNewFile();
-            } catch (IOException e) {
+
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             writeFile( login, password,nameFile );
