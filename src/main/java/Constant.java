@@ -16,4 +16,11 @@ public class Constant {
     static String LOGIN;
     static String PASSWORD;
 
+
+
+
+    // Date with https://app.redislabs.com/
+    final static String REDIS_HOST = "redis-15754.c12.us-east-1-4.ec2.cloud.redislabs.com";
+    final static int REDIS_PORT = 15754;
+    final static String REDIS_PASSWORD = "2hgtpMzTsHsl2t2awhPe6x4R8iad9viF";
 }

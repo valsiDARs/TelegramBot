@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-jaxrs-json-provider-2.8.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/repo/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.7/jackson-jaxrs-json-provider-2.8.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="telegram-bot-1.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/repo/org/example/telegram-bot/1.1/telegram-bot-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
